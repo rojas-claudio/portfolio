@@ -1,10 +1,14 @@
 import "../styles/global.css";
-import { Inter } from "@next/font/google";
-const inter = Inter();
+import { IBM_Plex_Sans } from "@next/font/google";
+import Header from "../components/header";
+const ibm = IBM_Plex_Sans({
+  weight: "400",
+});
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={inter.className}>
+    <div className={ibm.className}>
+      <Header />
       <Component {...pageProps} />
     </div>
   );
