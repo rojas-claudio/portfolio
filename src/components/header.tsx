@@ -3,11 +3,14 @@ import { useRouter } from "next/router"
 
 export default function Header() {
   const router = useRouter();
+  
   return (
-    <header style={{ position: router.asPath == "/" || router.asPath == "/about" ? "fixed" : "sticky" }}>
-      <h1 className="object-left-top text-3xl p-7">
+    <nav className="flex items-center justify-between flex-wrap p-7" style={{ position: router.asPath == "/" || router.asPath == "/about" || router.asPath =="/404" ? "fixed" : "sticky" }}>
+      <div className="text-3xl">
         <Link href="/">claudio rojas</Link>
-      </h1>
-    </header>
+      </div>
+    </nav>
+
+    
   )
 }
