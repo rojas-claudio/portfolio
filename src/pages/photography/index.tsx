@@ -16,14 +16,14 @@ export default function Photo() {
       TO-DO:
         Columns are restricted to two when <img/> is wrapped in <a/>. No clue why this happens.
         Begin to work on dynamic routing for each image, enlarging it when clicked (with carousel UI element)
-          Figure out how to store data associated with each image (camera info, date, etc). May have to use database????? 
+          Figure out how to store data associated with each image (camera info, date, etc). JSON object? 
     */
 
     
     <div className="flex justify-start items-center px-14">
       <title>Photography</title>
       <div className="h-full sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
-        <a href={`/photo/${images[0]}`}>
+        <a href={`${images[0]}`}>
           <img className={`${image} ${hover}`} src={images[0]}/>
         </a>
         <img className={`${image} ${hover}`} src={images[1]}/>
