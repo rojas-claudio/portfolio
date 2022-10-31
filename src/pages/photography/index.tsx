@@ -45,6 +45,7 @@ export default function Photo() {
         <img className={`${image} ${hover}`} src={images[17]}/>
         <img className={`${image} ${hover}`} src={images[18]}/>
         <img className={`${image} ${hover}`} src={images[19]}/>
+        <img className={`${image} ${hover}`} src={images[20]}/>
       </div>
     </div>
   );

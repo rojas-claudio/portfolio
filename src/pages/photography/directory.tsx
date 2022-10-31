@@ -5,6 +5,7 @@ export default function Directory() {
         "/amalfi-b.jpg",
         "/construction-a.jpg",
         "/construction-b.jpg",
+        "/construction-c.jpg",
         "/fco.jpg",
         "/flagstaff-a.jpg",
         "/las-a.jpg",
@@ -16,6 +17,7 @@ export default function Directory() {
         "/montreal-b.jpg",
         "/mount-charleston-a.jpg",
         "/mount-charleston-b.jpg",
+        "/mount-charleston-c.jpg",
         "/roma-a.jpg",
         "/vistas-a.jpg",
     ];
