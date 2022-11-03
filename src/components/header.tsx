@@ -8,11 +8,11 @@ export default function Header() {
 
   //Theme toggle:
   //
-  // useEffect(() => {
-  //   themeChange(false);
-  // });
+  useEffect(() => {
+    themeChange(false);
+  });
   //
-  //<input type="checkbox" className="toggle" data-toggle-theme="light,night"/>
+ 
   
   return (
     <nav className=" w-[99vw] flex items-center justify-between flex-wrap p-7" style={{ position: router.asPath == "/" || router.asPath == "/about" || router.asPath =="/404" ? "fixed" : "sticky" }}>
@@ -20,7 +20,7 @@ export default function Header() {
         <Link href="/">claudio rojas</Link>
       </div>
       <div>
-        
+        <input type="checkbox" className="toggle" data-toggle-theme="light,night"/>
       </div>
     </nav>
 
