@@ -1,10 +1,8 @@
-import Directory from "./directory";
+import images from "../../images"
+import { useState } from "react";
 
 export default function Photo() {
-  
-  const images = Directory();
-  const image = "rounded-md mb-5"
-  const hover = "hover:scale-105 ease-in-out duration-100 cursor-pointer";
+  const [currentImage, setCurrentImage] = useState("");
 
   return (
     /*
@@ -19,40 +17,28 @@ export default function Photo() {
           Figure out how to store data associated with each image (camera info, date, etc). JSON object? 
     */
 
-    
-    <div className="flex justify-start items-center px-14">
-      <title>Photography</title>
-      <div className="h-full sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
-        <a href={`${images[0]}`}>
-          <img className={`${image} ${hover}`} src={images[0]}/>
-        </a>
-        <img className={`${image} ${hover}`} src={images[1]}/>
-        <img className={`${image} ${hover}`} src={images[2]}/>
-        <img className={`${image} ${hover}`} src={images[3]}/>
-        <img className={`${image} ${hover}`} src={images[4]}/>
-        <img className={`${image} ${hover}`} src={images[5]}/>
-        <img className={`${image} ${hover}`} src={images[6]}/>
-        <img className={`${image} ${hover}`} src={images[7]}/>
-        <img className={`${image} ${hover}`} src={images[8]}/>
-        <img className={`${image} ${hover}`} src={images[9]}/>
-        <img className={`${image} ${hover}`} src={images[10]}/>
-        <img className={`${image} ${hover}`} src={images[11]}/>
-        <img className={`${image} ${hover}`} src={images[12]}/>
-        <img className={`${image} ${hover}`} src={images[13]}/>
-        <img className={`${image} ${hover}`} src={images[14]}/>
-        <img className={`${image} ${hover}`} src={images[15]}/>
-        <img className={`${image} ${hover}`} src={images[16]}/>
-        <img className={`${image} ${hover}`} src={images[17]}/>
-        <img className={`${image} ${hover}`} src={images[18]}/>
-        <img className={`${image} ${hover}`} src={images[19]}/>
-        <img className={`${image} ${hover}`} src={images[20]}/>
+    <>
+
+      <div className="flex justify-start items-center px-14">
+        <title>Photography</title>
+        <div className="h-full sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
+          {images.map(image =>
+            <div>
+              <label htmlFor="modal">
+                 <img className="rounded-md mb-5 hover:scale-105 ease-in-out duration-100 cursor-pointer" src={image} onClick={() => { setCurrentImage(image) }} />
+              </label>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+
+      
+      <input type="checkbox" id="modal" className="modal-toggle" />
+      <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md">
+        <div className="modal-box relative w-screen w-11/12 max-w-xl" >
+          <img src={currentImage} />
+        </div>
+      </label>
+    </>
   );
 }
-
-
-
-/*
-
-*/

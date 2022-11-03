@@ -1,5 +1,4 @@
-export default function Directory() {
-    const images = [
+export default  [
         "/air-canada-a.jpg",
         "/amalfi-a.jpg",
         "/amalfi-b.jpg",
@@ -21,6 +20,3 @@ export default function Directory() {
         "/roma-a.jpg",
         "/vistas-a.jpg",
     ];
-
-    return images;
-}
