@@ -6,13 +6,9 @@ import { themeChange } from 'theme-change'
 export default function Header() {
   const router = useRouter();
 
-  //Theme toggle:
-  //
   useEffect(() => {
     themeChange(false);
-  });
-  //
- 
+  }, []);
   
   return (
     <nav className=" w-[99vw] flex items-center justify-between flex-wrap p-7" style={{ position: router.asPath == "/" || router.asPath == "/about" || router.asPath =="/404" ? "fixed" : "sticky" }}>

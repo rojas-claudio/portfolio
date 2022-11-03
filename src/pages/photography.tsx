@@ -1,6 +1,5 @@
 import imageData from "../../public/images/imageData.json"
 import { useState } from "react";
-import Script from 'next/script'
 
 export default function Photo() {
   const [currentImage, setCurrentImage] = useState({
@@ -43,10 +42,9 @@ export default function Photo() {
 
       
       <input type="checkbox" id="modal" className="modal-toggle" />
-      <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md gap-5">
+      <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md">
         <div className="modal-box relative w-screen w-11/12 max-w-xl" >
           <img src={currentImage.path}/>
-          <h1>{currentImage.description}</h1>
         </div>
         
       </label>
