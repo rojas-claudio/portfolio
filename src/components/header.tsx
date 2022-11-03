@@ -6,10 +6,12 @@ import { themeChange } from 'theme-change'
 export default function Header() {
   const router = useRouter();
 
+  //Theme toggle:
+  //
   // useEffect(() => {
   //   themeChange(false);
   // });
-
+  //
   //<input type="checkbox" className="toggle" data-toggle-theme="light,night"/>
   
   return (
