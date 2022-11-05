@@ -14,10 +14,9 @@ export default function Photo() {
 
   return (
     /*
-
       TO-DO:
         Fix spacing with flex-wrap on image + metadata
-
+        
     */
     <>
       <div className="flex justify-start items-center px-14">
