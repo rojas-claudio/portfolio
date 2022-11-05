@@ -15,7 +15,7 @@ export default function Header() {
       <div className="text-3xl">
         <Link href="/">claudio rojas</Link>
       </div>
-      <div>
+      <div className="flex items-center justify-between">
         <input type="checkbox" className="toggle" data-toggle-theme="light,night"/>
       </div>
     </nav>

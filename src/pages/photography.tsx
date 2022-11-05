@@ -9,7 +9,7 @@ export default function Photo() {
       "aperture": "f/0",
       "location": "Earth",
       "description": "Example image description",
-      "size": "max-w-3xl"
+      "size": "max-w-2xl"
   });
 
   return (
