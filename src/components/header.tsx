@@ -11,7 +11,7 @@ export default function Header() {
   }, []);
   
   return (
-    <nav className=" w-[99vw] flex items-center justify-between flex-wrap p-7" style={{ position: router.asPath == "/" || router.asPath == "/about" || router.asPath =="/404" ? "fixed" : "sticky" }}>
+    <nav className="w-[99vw] flex items-center justify-between flex-wrap p-7" style={{ position: router.asPath == "/" || router.asPath == "/about" || router.asPath =="/404" ? "fixed" : "sticky" }}>
       <div className="text-3xl">
         <Link href="/">claudio rojas</Link>
       </div>

@@ -3,30 +3,23 @@ import { useState } from "react";
 
 export default function Photo() {
   const [currentImage, setCurrentImage] = useState({
-    "path": "/example/path",
+      "path": "/example/path",
       "iso": 0,
-      "shutter": 0,
+      "shutter": "0/0s",
       "aperture": "f/0",
       "location": "Earth",
-      "description": "Example image description"
+      "description": "Example image description",
+      "size": "max-w-3xl"
   });
 
   return (
     /*
-      Layout: 
-        Grid spanning entire screen. Upon clicking an image, a carousel will appear with 
-        the image selected focused. Description will be shown below the carosel and will change
-        with the image.
 
       TO-DO:
-        Columns are restricted to two when <img/> is wrapped in <a/>. No clue why this happens.
-        Begin to work on dynamic routing for each image, enlarging it when clicked (with carousel UI element)
-          Figure out how to store data associated with each image (camera info, date, etc). JSON object? 
-    
-      */
+        Fix spacing with flex-wrap on image + metadata
 
+    */
     <>
-
       <div className="flex justify-start items-center px-14">
         <title>Photography</title>
         <div className="h-full sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
@@ -42,11 +35,34 @@ export default function Photo() {
 
       
       <input type="checkbox" id="modal" className="modal-toggle" />
-      <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md">
-        <div className="modal-box relative w-screen w-11/12 max-w-xl" >
+      <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md flex-wrap">
+        <div className={`modal-box relative ${currentImage.size}`}>
           <img src={currentImage.path}/>
         </div>
         
+        <div className={"pl-6 bg-default rounded-lg items-start"}>
+          <div className="flex gap-1 pt-1 self-center">
+            <img src="/info.svg" className="scale-80 pr-1"/>
+            <h1 className="text-lg text-white">{currentImage.description == "" ? "N/A" : currentImage.description}</h1>
+          </div>
+          <div className="flex gap-1 pt-1 self-center">
+            <img src="/shutter.svg" className="scale-80 pr-1"/>
+            <h1 className="text-lg text-white">{currentImage.shutter}</h1>
+          </div>
+          <div className="flex gap-1 pt-1 self-center">
+            <img src="/aperture.svg" className="scale-80 pr-1"/>
+            <h1 className="text-lg text-white">{currentImage.aperture}</h1>
+          </div>
+          <div className="flex gap-1 pt-1 self-center">
+            <img src="/iso.svg" className="scale-80 pr-1"/>
+            <h1 className="text-lg text-white">{"ISO " + currentImage.iso}</h1>
+          </div>
+          <div className="flex gap-1 pt-1 self-center">
+            <img src="/location.svg" className="scale-80 pr-1"/>
+            <h1 className="text-lg text-white">{currentImage.location}</h1>
+          </div>
+        </div>
+
       </label>
     </>
   );

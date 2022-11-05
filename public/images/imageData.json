@@ -2,171 +2,192 @@
   "images" : [
     {
       "path": "/images/air-canada-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
+      "iso": 50,
+      "shutter": "1/540s",
+      "aperture": "f/1.5",
       "location": "USA",
-      "description": "Soaring over the United States."
+      "description": "Soaring over the United States.",
+      "size": "max-w-xl"
     },
     {
       "path": "/images/amalfi-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
+      "iso": 50,
+      "shutter": "1/3900s",
+      "aperture": "f/2.4",
       "location": "Amalfi, Italy",
-      "description": "Exploring the Amalfi Coast."
+      "description": "Exploring the Amalfi Coast.",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/amalfi-b.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
+      "iso": 50,
+      "shutter": "1/2400s",
+      "aperture": "f/2.4",
       "location": "Amalfi, Italy",
-      "description": "Exploring the Amalfi Coast."
+      "description": "Exploring the Amalfi Coast.",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/construction-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 3200,
+      "shutter": "1/200s",
+      "aperture": "f/7.1",
+      "location": "Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/construction-b.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 3200,
+      "shutter": "1/100s",
+      "aperture": "f/5.6",
+      "location": "Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/construction-c.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 3200,
+      "shutter": "1/40s",
+      "aperture": "f/5.3",
+      "location": "Nevada",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/fco.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 50,
+      "shutter": "1/270s",
+      "aperture": "f/2.4",
+      "location": "Leonardo da Vinci International Airport, Italy",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/flagstaff-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 640,
+      "shutter": "1/20s",
+      "aperture": "f/1.8",
+      "location": "Flagstaff, Arizona",
+      "description": "",
+      "size": "max-w-xl"
     },
     {
       "path": "/images/las-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 100,
+      "shutter": "1/320s",
+      "aperture": "f/9",
+      "location": "Harry Reid International Airport, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/las-b.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 100,
+      "shutter": "1/320s",
+      "aperture": "f/9",
+      "location": "Harry Reid International Airport, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/las-c.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 100,
+      "shutter": "1/320s",
+      "aperture": "f/9",
+      "location": "Harry Reid International Airport, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/las-d.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 100,
+      "shutter": "1/400s",
+      "aperture": "f/10",
+      "location": "Harry Reid International Airport, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/las-e.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 100,
+      "shutter": "1/320s",
+      "aperture": "f/9",
+      "location": "Harry Reid International Airport, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
     },
     {
       "path": "/images/montreal-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 50,
+      "shutter": "1/1400s",
+      "aperture": "f/2.4",
+      "location": "Montreal, Quebec",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/montreal-b.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 400,
+      "shutter": "1/15s",
+      "aperture": "f/1.5",
+      "location": "Montreal, Quebec",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/valley-fire.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
+      "iso": 20,
+      "shutter": "1/2500s",
+      "aperture": "f/1.8",
       "location": "Valley Of Fire, Nevada",
-      "description": ""
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/mount-charleston-a.jpg",
-      "iso": 0,
-      "shutter": 0,
+      "iso": 125,
+      "shutter": "1/250s",
       "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "location": "Mount Charleston, Nevada",
+      "description": "",
+      "size": "max-w-xl"
     },
     {
       "path": "/images/mount-charleston-b.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 3200,
+      "shutter": "1/1600s",
+      "aperture": "f/6.3",
+      "location": "Mount Charleston, Nevada",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/mount-charleston-c.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 110,
+      "shutter": "1/250s",
+      "aperture": "f/8",
+      "location": "Mount Charleston, Nevada",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/roma-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 50,
+      "shutter": "1/1250s",
+      "aperture": "f/2.4",
+      "location": "Rome, Italy",
+      "description": "",
+      "size": "max-w-2xl"
     },
     {
       "path": "/images/vistas-a.jpg",
-      "iso": 0,
-      "shutter": 0,
-      "aperture": "f/5",
-      "location": "Amalfi, Italy",
-      "description": ""
+      "iso": 400,
+      "shutter": "1/80s",
+      "aperture": "f/5.6",
+      "location": "Nevada",
+      "description": "",
+      "size": "max-w-2xl"
     }
   ]
 }
