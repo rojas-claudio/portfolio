@@ -9,13 +9,14 @@ export default function Photo() {
       "aperture": "f/0",
       "location": "Earth",
       "description": "Example image description",
-      "size": "max-w-2xl"
+      "size": "max-w-3xl"
   });
 
   return (
     /*
       TO-DO:
         Fix spacing with flex-wrap on image + metadata
+        Some images not sizing correctly
         
     */
     <>
