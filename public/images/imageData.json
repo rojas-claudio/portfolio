@@ -1,6 +1,24 @@
 {
   "images" : [
     {
+      "path": "/images/f1-a.jpg",
+      "iso": 560,
+      "shutter": "1/60s",
+      "aperture": "f/5.6",
+      "location": "Las Vegas Strip, Nevada",
+      "description": "Donuts on The Strip.",
+      "size": "max-w-4xl"
+    },
+    {
+      "path": "/images/f1-b.jpg",
+      "iso": 800,
+      "shutter": "1/40s",
+      "aperture": "f/5.6",
+      "location": "Las Vegas Strip, Nevada",
+      "description": "",
+      "size": "max-w-4xl"
+    },
+    {
       "path": "/images/air-canada-a.jpg",
       "iso": 50,
       "shutter": "1/540s",
