@@ -37,7 +37,7 @@ export default function Photo() {
       
       <input type="checkbox" id="modal" className="modal-toggle" />
       <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md flex-wrap">
-        <div className={clsx(`modal-box relative w-screen`, currentImage.size)}>
+        <div className={clsx(`modal-box relative w-full`, currentImage.size)}>
           <img src={currentImage.path}/>
         </div>
         
