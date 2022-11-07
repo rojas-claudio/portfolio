@@ -1,4 +1,5 @@
 import imageData from "../../public/images/imageData.json"
+import clsx from "clsx";
 import { useState } from "react";
 
 export default function Photo() {
@@ -36,7 +37,7 @@ export default function Photo() {
       
       <input type="checkbox" id="modal" className="modal-toggle" />
       <label htmlFor="modal" className="modal cursor-pointer bg-opacity-90 backdrop-blur-md flex-wrap">
-        <div className={`modal-box relative ${currentImage.size}`}>
+        <div className={clsx(`modal-box relative w-screen`, currentImage.size)}>
           <img src={currentImage.path}/>
         </div>
         
