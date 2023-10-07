@@ -27,7 +27,7 @@ export default function Photo() {
           {imageData.images.map(image =>
             <div>
               <label htmlFor="modal">
-                 <img className="rounded-md mb-5 hover:scale-105 ease-in-out duration-100 cursor-pointer" src={image.path} onClick={() => { setCurrentImage(image) }} />
+                 <img className="mb-5 hover:scale-105 ease-in-out duration-100 cursor-pointer" src={image.path} onClick={() => { setCurrentImage(image) }} />
               </label>
             </div>
           )}
@@ -41,7 +41,7 @@ export default function Photo() {
           <img src={currentImage.path}/>
         </div>
         
-        <div className={"pl-6 bg-default rounded-lg items-start"}>
+        <div className={"pl-6 bg-default items-start"}>
           <div className="flex gap-1 pt-1 self-center">
             <img src="/info.svg" className="scale-80 pr-1"/>
             <h1 className="text-lg text-white">{currentImage.description == "" ? "N/A" : currentImage.description}</h1>
