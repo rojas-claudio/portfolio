@@ -23,7 +23,7 @@ export default function Photo() {
     <>
       <div className="flex justify-start items-center px-14">
         <title>Photography</title>
-        <div className="h-full sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
+        <div className=" sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
           {imageData.images.map(image =>
             <div>
               <label htmlFor="modal">
