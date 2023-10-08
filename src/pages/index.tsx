@@ -50,7 +50,7 @@ export default function Index() {
       <title>claudio rojas</title>
 
       <div className="w-2/5 p-1 flex justify-center items-center bg-secondary">
-        <h id="welcome" className="text-4xl text-center"></h>
+        <h1 id="welcome" className="text-4xl text-center"></h1>
       </div>
 
       <div className="p-2"></div>
