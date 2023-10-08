@@ -21,7 +21,13 @@ export default function Photo() {
         
     */
     <>
-      <div className="flex justify-start items-center px-14">
+      <div className="w-screen p-1 flex justify-center items-center">
+        <a className="text-2xl px-2" target="_blank" href="https://www.flickr.com/photos/197414684@N08/">Flickr</a>
+        <h1 className="text-2xl">•</h1>
+        <a className="text-2xl px-2" target="_blank" href="https://www.instagram.com/rojas.photo/">Instagram</a>
+      </div>
+
+      <div className="flex justify-start items-center px-14 pt-6">
         <title>Photography</title>
         <div className=" sm:columns-1 md:columns-2 lg:columns-3 xl:columns-5 gap-5">
           {imageData.images.map(image =>

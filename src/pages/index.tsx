@@ -49,17 +49,17 @@ export default function Index() {
     <div className="flex flex-col justify-center items-center content-start">
       <title>claudio rojas</title>
 
-      <div className="w-2/5 p-1 flex justify-center items-center bg-secondary">
+      <div className="w-screen p-1 flex justify-center items-center">
         <h1 id="welcome" className="text-4xl text-center"></h1>
       </div>
 
       <div className="p-2"></div>
       
-      <div className="w-2/5 p-1 flex-col justify-start items-center bg-secondary">
+      <div className="w-3/4 lg:w-2/5 p-2 flex-col justify-start items-center bg-secondary">
         <p className="text-xl text-left break-words">I'm a senior in high school with a passion for technology, software development, photography, and aviation. I currently specialize in full-stack engineering and information technologies, with professional experience in:</p>
         <br></br>
         <p className="text-xl text-left break-words">• C# Development</p>
-        <p className="text-xl text-left break-words">• Pyhton Development</p>
+        <p className="text-xl text-left break-words">• Python Development</p>
         <p className="text-xl text-left break-words">• IT Operations</p>
         <p className="text-xl text-left break-words">• Customer Support</p>
         <p className="text-xl text-left break-words">• Computer Repair</p>
